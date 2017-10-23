@@ -1,4 +1,4 @@
-import { fade } from './../animations';
+import { fade, slide } from './../animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './todos.component.html',
   styleUrls: ['./todos.component.css'],
   animations: [
-    fade
+    fade,
+    slide
   ]
 })
 export class TodosComponent {
